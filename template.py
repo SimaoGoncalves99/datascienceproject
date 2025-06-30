@@ -26,6 +26,7 @@ list_of_files = [
     "setupt.py",
     "research/research.ipynb"
     "templates/index.html",
+    "app.py"
     ]
 
 for file_path in list_of_files:
