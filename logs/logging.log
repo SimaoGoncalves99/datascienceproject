@@ -1,1 +1,83 @@
 [2025-06-30 10:18:01,259: INFO: main: Welcome to our custom logging datascience package!]
+[2025-06-30 13:49:08,428: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-30 13:49:08,431: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-30 13:51:01,812: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-30 13:51:04,032: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-30 13:51:21,129: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-30 13:51:21,132: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-30 13:53:19,682: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-30 13:53:19,685: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-30 13:53:19,688: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-30 13:53:19,690: INFO: common: created directory at: artifacts]
+[2025-06-30 13:53:19,692: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-30 13:53:20,718: INFO: 2030822398: artifacts/data_ingestion/data.zip download! With following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E4E6:B1BAD:25D9A1D:2B81C92:686296CD
+Accept-Ranges: bytes
+Date: Mon, 30 Jun 2025 13:53:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lis1490025-LIS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1751291600.450391,VS0,VE250
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ff972b79bb6400f9e80024599f38590614548710
+Expires: Mon, 30 Jun 2025 13:58:20 GMT
+Source-Age: 0
+
+]
+[2025-06-30 13:55:28,084: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-30 13:55:28,087: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-30 13:55:28,089: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-30 13:55:28,090: INFO: common: created directory at: artifacts]
+[2025-06-30 13:55:28,091: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-30 13:55:28,092: INFO: 2030822398: File already exists of size:]
+[2025-06-30 13:55:30,676: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-30 13:55:30,679: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-30 13:55:30,682: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-30 13:55:30,683: INFO: common: created directory at: artifacts]
+[2025-06-30 13:55:30,684: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-30 13:55:30,686: INFO: 2030822398: File already exists of size:]
+[2025-06-30 13:55:48,379: INFO: common: yaml file: config/config.yaml loaded successfully]
+[2025-06-30 13:55:48,382: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-06-30 13:55:48,385: INFO: common: yaml file: schema.yaml loaded successfully]
+[2025-06-30 13:55:48,387: INFO: common: created directory at: artifacts]
+[2025-06-30 13:55:48,387: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-06-30 13:55:49,058: INFO: 2030822398: artifacts/data_ingestion/data.zip download! With following info:
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: DC2B:11F5:E4700F:1044268:68629762
+Accept-Ranges: bytes
+Date: Mon, 30 Jun 2025 13:55:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-lis1490045-LIS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1751291749.855896,VS0,VE182
+Vary: Authorization,Accept-Encoding
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cc58326938fd7a0e165339bf4c38ac573f7bc840
+Expires: Mon, 30 Jun 2025 14:00:49 GMT
+Source-Age: 0
+
+]
