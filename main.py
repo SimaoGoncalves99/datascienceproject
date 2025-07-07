@@ -8,6 +8,9 @@ from src.datascience.pipeline.data_validation_pipeline import (
 from src.datascience.pipeline.data_transformation_pipeline import (
     DataTransformationTrainingPipeline,
 )
+from src.datascience.pipeline.model_trainer_pipeline import (
+    ModelTrainerPipeline,
+)
 
 
 logger.info("Welcome to our custom logging datascience package!")
@@ -40,6 +43,17 @@ try:
     logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
     obj = DataTransformationTrainingPipeline()
     obj.initiate_data_transformation()
+    logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+STAGE_NAME = "Model Training Stage"
+
+try:
+    logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+    obj = ModelTrainerPipeline()
+    obj.initiate_model_training()
     logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx======x")
 except Exception as e:
     logger.exception(e)
