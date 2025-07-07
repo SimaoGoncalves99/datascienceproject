@@ -5,7 +5,16 @@ from src.datascience.entity.config_entity import (
     DataValidationConfig,
     DataTransformationConfig,
     ModelTrainerConfig,
+    ModelEvaluationConfig,
 )
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+os.environ["MLFLOW_TRACKING_URI"] = str(os.getenv("MLFLOW_TRACKING_URI"))
+print(os.environ["MLFLOW_TRACKING_URI"])
+os.environ["EXPERIMENT_NAME"] = str(os.getenv("EXPERIMENT_NAME"))
+print(os.environ["EXPERIMENT_NAME"])
 
 
 class ConfigurationManager:
@@ -73,3 +82,22 @@ class ConfigurationManager:
         )
 
         return model_trainer_config
+
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET
+
+        create_directories([config.root_dir])
+
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir=config.root_dir,
+            test_data_path=config.test_data_path,
+            model_path=config.model_path,
+            all_params=params,
+            metric_file_name=config.metric_file_name,
+            target_column=schema.name,
+            mlflow_uri=os.environ["MLFLOW_TRACKING_URI"],
+            experiment_name=os.environ["EXPERIMENT_NAME"],
+        )
+        return model_evaluation_config
